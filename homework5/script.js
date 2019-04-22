@@ -34,6 +34,7 @@ for (var i = 1; i <= arr2.length; i++){
 }
 console.log(lastarr2);
 
+
 //№4
 console.log('№4');
     var obj = {html:'HTML', css: 'CSS', js: 'ECMA'};
