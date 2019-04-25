@@ -2,21 +2,21 @@
 //1
 var a = 1;
 
-if (a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
 }
 
 var a = '1';
-if (a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
 }
 
 var a = 3;
-if (a == '1') {
+if (a === '1') {
     console.log('Верно');
 } else {
     console.log('Неверно');
