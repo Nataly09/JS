@@ -44,7 +44,7 @@ var now = new Date();
 var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 var dateOfBirth1 = new Date(now.getFullYear(),dateOfBirth.getMonth(), dateOfBirth.getDate());
 var result = Math.round((dateOfBirth1 - today)/ 3600000 / 24);
-if ( result  > 0) {
+if ( result  >= 0) {
   alert(result  + ' days');
 }else{
   var other = 365 + result ;
